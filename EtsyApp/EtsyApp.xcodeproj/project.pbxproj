@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26C9BB6914CB967500A0C0C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C9BB6814CB967500A0C0C9 /* UIKit.framework */; };
+		26C9BB6B14CB967500A0C0C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C9BB6A14CB967500A0C0C9 /* Foundation.framework */; };
+		26C9BB6D14CB967500A0C0C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C9BB6C14CB967500A0C0C9 /* CoreGraphics.framework */; };
+		26C9BB7314CB967500A0C0C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26C9BB7114CB967500A0C0C9 /* InfoPlist.strings */; };
+		26C9BB7514CB967500A0C0C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C9BB7414CB967500A0C0C9 /* main.m */; };
+		26C9BB7914CB967500A0C0C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C9BB7814CB967500A0C0C9 /* AppDelegate.m */; };
+		26C9BB7C14CB967500A0C0C9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C9BB7A14CB967500A0C0C9 /* MainStoryboard_iPhone.storyboard */; };
+		26C9BB7F14CB967500A0C0C9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C9BB7D14CB967500A0C0C9 /* MainStoryboard_iPad.storyboard */; };
+		26C9BB8214CB967500A0C0C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C9BB8114CB967500A0C0C9 /* ViewController.m */; };
+		26C9BB8A14CB967500A0C0C9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C9BB8914CB967500A0C0C9 /* SenTestingKit.framework */; };
+		26C9BB8B14CB967500A0C0C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C9BB6814CB967500A0C0C9 /* UIKit.framework */; };
+		26C9BB8C14CB967500A0C0C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C9BB6A14CB967500A0C0C9 /* Foundation.framework */; };
+		26C9BB9414CB967500A0C0C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26C9BB9214CB967500A0C0C9 /* InfoPlist.strings */; };
+		26C9BB9714CB967500A0C0C9 /* EtsyAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C9BB9614CB967500A0C0C9 /* EtsyAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26C9BB8D14CB967500A0C0C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26C9BB5B14CB967500A0C0C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26C9BB6314CB967500A0C0C9;
+			remoteInfo = EtsyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26C9BB6414CB967500A0C0C9 /* EtsyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EtsyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C9BB6814CB967500A0C0C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		26C9BB6A14CB967500A0C0C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		26C9BB6C14CB967500A0C0C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		26C9BB7014CB967500A0C0C9 /* EtsyApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EtsyApp-Info.plist"; sourceTree = "<group>"; };
+		26C9BB7214CB967500A0C0C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26C9BB7414CB967500A0C0C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26C9BB7614CB967500A0C0C9 /* EtsyApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EtsyApp-Prefix.pch"; sourceTree = "<group>"; };
+		26C9BB7714CB967500A0C0C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26C9BB7814CB967500A0C0C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26C9BB7B14CB967500A0C0C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		26C9BB7E14CB967500A0C0C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		26C9BB8014CB967500A0C0C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26C9BB8114CB967500A0C0C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26C9BB8814CB967500A0C0C9 /* EtsyAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtsyAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C9BB8914CB967500A0C0C9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		26C9BB9114CB967500A0C0C9 /* EtsyAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EtsyAppTests-Info.plist"; sourceTree = "<group>"; };
+		26C9BB9314CB967500A0C0C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26C9BB9514CB967500A0C0C9 /* EtsyAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EtsyAppTests.h; sourceTree = "<group>"; };
+		26C9BB9614CB967500A0C0C9 /* EtsyAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EtsyAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26C9BB6114CB967500A0C0C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C9BB6914CB967500A0C0C9 /* UIKit.framework in Frameworks */,
+				26C9BB6B14CB967500A0C0C9 /* Foundation.framework in Frameworks */,
+				26C9BB6D14CB967500A0C0C9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C9BB8414CB967500A0C0C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C9BB8A14CB967500A0C0C9 /* SenTestingKit.framework in Frameworks */,
+				26C9BB8B14CB967500A0C0C9 /* UIKit.framework in Frameworks */,
+				26C9BB8C14CB967500A0C0C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26C9BB5914CB967400A0C0C9 = {
+			isa = PBXGroup;
+			children = (
+				26C9BB6E14CB967500A0C0C9 /* EtsyApp */,
+				26C9BB8F14CB967500A0C0C9 /* EtsyAppTests */,
+				26C9BB6714CB967500A0C0C9 /* Frameworks */,
+				26C9BB6514CB967500A0C0C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26C9BB6514CB967500A0C0C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26C9BB6414CB967500A0C0C9 /* EtsyApp.app */,
+				26C9BB8814CB967500A0C0C9 /* EtsyAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26C9BB6714CB967500A0C0C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26C9BB6814CB967500A0C0C9 /* UIKit.framework */,
+				26C9BB6A14CB967500A0C0C9 /* Foundation.framework */,
+				26C9BB6C14CB967500A0C0C9 /* CoreGraphics.framework */,
+				26C9BB8914CB967500A0C0C9 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26C9BB6E14CB967500A0C0C9 /* EtsyApp */ = {
+			isa = PBXGroup;
+			children = (
+				26C9BB7714CB967500A0C0C9 /* AppDelegate.h */,
+				26C9BB7814CB967500A0C0C9 /* AppDelegate.m */,
+				26C9BB7A14CB967500A0C0C9 /* MainStoryboard_iPhone.storyboard */,
+				26C9BB7D14CB967500A0C0C9 /* MainStoryboard_iPad.storyboard */,
+				26C9BB8014CB967500A0C0C9 /* ViewController.h */,
+				26C9BB8114CB967500A0C0C9 /* ViewController.m */,
+				26C9BB6F14CB967500A0C0C9 /* Supporting Files */,
+			);
+			path = EtsyApp;
+			sourceTree = "<group>";
+		};
+		26C9BB6F14CB967500A0C0C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26C9BB7014CB967500A0C0C9 /* EtsyApp-Info.plist */,
+				26C9BB7114CB967500A0C0C9 /* InfoPlist.strings */,
+				26C9BB7414CB967500A0C0C9 /* main.m */,
+				26C9BB7614CB967500A0C0C9 /* EtsyApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26C9BB8F14CB967500A0C0C9 /* EtsyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				26C9BB9514CB967500A0C0C9 /* EtsyAppTests.h */,
+				26C9BB9614CB967500A0C0C9 /* EtsyAppTests.m */,
+				26C9BB9014CB967500A0C0C9 /* Supporting Files */,
+			);
+			path = EtsyAppTests;
+			sourceTree = "<group>";
+		};
+		26C9BB9014CB967500A0C0C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26C9BB9114CB967500A0C0C9 /* EtsyAppTests-Info.plist */,
+				26C9BB9214CB967500A0C0C9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26C9BB6314CB967500A0C0C9 /* EtsyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C9BB9A14CB967500A0C0C9 /* Build configuration list for PBXNativeTarget "EtsyApp" */;
+			buildPhases = (
+				26C9BB6014CB967500A0C0C9 /* Sources */,
+				26C9BB6114CB967500A0C0C9 /* Frameworks */,
+				26C9BB6214CB967500A0C0C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EtsyApp;
+			productName = EtsyApp;
+			productReference = 26C9BB6414CB967500A0C0C9 /* EtsyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26C9BB8714CB967500A0C0C9 /* EtsyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C9BB9D14CB967500A0C0C9 /* Build configuration list for PBXNativeTarget "EtsyAppTests" */;
+			buildPhases = (
+				26C9BB8314CB967500A0C0C9 /* Sources */,
+				26C9BB8414CB967500A0C0C9 /* Frameworks */,
+				26C9BB8514CB967500A0C0C9 /* Resources */,
+				26C9BB8614CB967500A0C0C9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26C9BB8E14CB967500A0C0C9 /* PBXTargetDependency */,
+			);
+			name = EtsyAppTests;
+			productName = EtsyAppTests;
+			productReference = 26C9BB8814CB967500A0C0C9 /* EtsyAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26C9BB5B14CB967500A0C0C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 26C9BB5E14CB967500A0C0C9 /* Build configuration list for PBXProject "EtsyApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 26C9BB5914CB967400A0C0C9;
+			productRefGroup = 26C9BB6514CB967500A0C0C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26C9BB6314CB967500A0C0C9 /* EtsyApp */,
+				26C9BB8714CB967500A0C0C9 /* EtsyAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26C9BB6214CB967500A0C0C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C9BB7314CB967500A0C0C9 /* InfoPlist.strings in Resources */,
+				26C9BB7C14CB967500A0C0C9 /* MainStoryboard_iPhone.storyboard in Resources */,
+				26C9BB7F14CB967500A0C0C9 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C9BB8514CB967500A0C0C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C9BB9414CB967500A0C0C9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26C9BB8614CB967500A0C0C9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26C9BB6014CB967500A0C0C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C9BB7514CB967500A0C0C9 /* main.m in Sources */,
+				26C9BB7914CB967500A0C0C9 /* AppDelegate.m in Sources */,
+				26C9BB8214CB967500A0C0C9 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C9BB8314CB967500A0C0C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C9BB9714CB967500A0C0C9 /* EtsyAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26C9BB8E14CB967500A0C0C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26C9BB6314CB967500A0C0C9 /* EtsyApp */;
+			targetProxy = 26C9BB8D14CB967500A0C0C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26C9BB7114CB967500A0C0C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26C9BB7214CB967500A0C0C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		26C9BB7A14CB967500A0C0C9 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26C9BB7B14CB967500A0C0C9 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		26C9BB7D14CB967500A0C0C9 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26C9BB7E14CB967500A0C0C9 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		26C9BB9214CB967500A0C0C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26C9BB9314CB967500A0C0C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26C9BB9814CB967500A0C0C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26C9BB9914CB967500A0C0C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26C9BB9B14CB967500A0C0C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EtsyApp/EtsyApp-Prefix.pch";
+				INFOPLIST_FILE = "EtsyApp/EtsyApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26C9BB9C14CB967500A0C0C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EtsyApp/EtsyApp-Prefix.pch";
+				INFOPLIST_FILE = "EtsyApp/EtsyApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26C9BB9E14CB967500A0C0C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EtsyApp.app/EtsyApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EtsyApp/EtsyApp-Prefix.pch";
+				INFOPLIST_FILE = "EtsyAppTests/EtsyAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		26C9BB9F14CB967500A0C0C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EtsyApp.app/EtsyApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EtsyApp/EtsyApp-Prefix.pch";
+				INFOPLIST_FILE = "EtsyAppTests/EtsyAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26C9BB5E14CB967500A0C0C9 /* Build configuration list for PBXProject "EtsyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C9BB9814CB967500A0C0C9 /* Debug */,
+				26C9BB9914CB967500A0C0C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26C9BB9A14CB967500A0C0C9 /* Build configuration list for PBXNativeTarget "EtsyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C9BB9B14CB967500A0C0C9 /* Debug */,
+				26C9BB9C14CB967500A0C0C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26C9BB9D14CB967500A0C0C9 /* Build configuration list for PBXNativeTarget "EtsyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C9BB9E14CB967500A0C0C9 /* Debug */,
+				26C9BB9F14CB967500A0C0C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26C9BB5B14CB967500A0C0C9 /* Project object */;
+}
